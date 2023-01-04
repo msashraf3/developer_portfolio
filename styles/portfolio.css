@@ -4,7 +4,20 @@
 }
 
 /* Navbar and header styles */
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+.text-primary{
+    color: orange;
 }
