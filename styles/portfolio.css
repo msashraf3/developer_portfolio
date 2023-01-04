@@ -3,16 +3,23 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
 
 .btn-primary {
     color: #FFFFFF;
+    border: 0;
     font-weight: 700;
     font-size: 20px;
-    width: 150px;
-    height: 64px;
+    padding: 18px 36px;
     border-radius: 5px;
     background: #FD6E0A;
 }
@@ -26,6 +33,7 @@ nav {
 
 nav ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -36,4 +44,33 @@ nav li {
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+
+/* Header Banner Style */
+.banner{
+    margin-left: 230px;
+    margin-right: 38px;
+    display: flex;
+    align-items: center;
+}
+.banner-sub-title{
+    font-weight: 600;
+font-size: 45px;
+line-height: 61px;
+color: #474747;
+margin-bottom: 5px;
+}
+.banner-title{
+    font-weight: 700;
+font-size: 85px;
+line-height: 116px;
+color: #181818;
+margin-bottom: 20px;
+}
+.banner-caption{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+margin-bottom: 30px;
 }
