@@ -3,21 +3,37 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
 /* Navbar and header styles */
-nav{
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 226px;
+}
+
+nav ul {
     display: flex;
 }
-nav ul{
-    display: flex;
-}
-nav li{
+
+nav li {
     list-style: none;
-    margin-left: 50px;
+    margin-right: 50px;
 }
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
-}
-.text-primary{
-    color: orange;
 }
